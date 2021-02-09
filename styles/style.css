@@ -146,10 +146,7 @@ nav ul {
 .intro h2 {
   font-size: 8rem;
   padding-top: 2rem;
-  background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
-  background: linear-gradient(left, #38d39f, #38a4d3);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #38b9bc;
   display: inline-block;
 }
 
@@ -538,5 +535,34 @@ footer h4 {
     -webkit-transform: rotateZ(-4deg);
             transform: rotateZ(-4deg);
   }
+}
+
+.tools {
+  min-height: 95vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent)), url(/img/ipad.jpg);
+  background: linear-gradient(black, transparent), url(/img/ipad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tools h2,
+h3 {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
