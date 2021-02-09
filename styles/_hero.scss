@@ -1,0 +1,69 @@
+.hero {
+  @include flex(center, center, row);
+  padding-top: 4rem;
+  min-height: 95vh;
+}
+
+.hero-introduction {
+  line-height: 5rem;
+  text-align: justify;
+  margin: 9rem;
+  h1 {
+    text-align: center;
+  }
+}
+
+/* Animation */
+
+#upload {
+  animation: upload 0.7s ease infinite alternate;
+}
+
+#upload_2 {
+  animation: upload 0.7s ease infinite alternate;
+}
+
+#left-sync {
+  animation: left-sync 1.5s ease infinite alternate;
+  transform-origin: bottom;
+}
+
+#right-sync {
+  animation: right-sync 1.5s ease infinite alternate;
+  transform-origin: bottom;
+}
+
+@keyframes upload {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-5%);
+  }
+}
+
+@keyframes upload_2 {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-5%);
+  }
+}
+
+@keyframes left-sync {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
+@keyframes right-sync {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-4deg);
+  }
+}

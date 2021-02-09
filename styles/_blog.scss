@@ -1,0 +1,50 @@
+.blog-introduction {
+  min-height: 30vh;
+  @include flex(center, center, row);
+  flex-wrap: wrap;
+  margin: 0 0 0 auto;
+}
+
+/* Parent */
+
+.blog-layout {
+  display: grid;
+  min-height: 100vh;
+  margin: 5%;
+  justify-items: center;
+  flex-wrap: wrap;
+  grid-template-columns: 125rem 40rem;
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+  grid-template-areas:
+    "card1 about"
+    "card2 about"
+    "card3 .";
+}
+
+/* Individual cards */
+
+.blog-card1 {
+  background: rgb(188, 218, 388);
+  grid-area: card1;
+}
+.blog-card2 {
+  background: rgb(182, 218, 133);
+  grid-area: card2;
+}
+.blog-card3 {
+  background: rgb(110, 119, 131);
+  grid-area: card3;
+}
+.about {
+  background: rgb(181, 201, 192);
+  grid-area: about;
+  justify-self: start;
+}
+
+.blog-images {
+  background-color: #aaa;
+  display: flex;
+  margin-right: 4rem;
+  padding: 10rem;
+}
