@@ -1,0 +1,44 @@
+.system-head {
+  background: #343c44;
+  padding: 3rem;
+  min-height: 30vh;
+  @include flex(center, center, column);
+  text-align: center;
+  line-height: 4rem;
+  color: white;
+  h3 {
+    padding: 2rem;
+  }
+}
+
+.cards {
+  width: 90%;
+  min-height: 70vh;
+  flex-wrap: wrap;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1),
+    0px 20px 20px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  background: rgb(31, 31, 31);
+  img {
+    max-width: 15%;
+    margin: 2rem;
+  }
+  p,
+  h4 {
+    padding: 3rem;
+  }
+}
+
+.card-icon {
+  height: 115px;
+  background: $gradient;
+}

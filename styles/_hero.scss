@@ -1,69 +1,38 @@
 .hero {
+  min-height: 100vh;
+  width: 90%;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent);
   @include flex(center, center, row);
-  padding-top: 4rem;
-  min-height: 95vh;
+  flex-wrap: wrap;
 }
 
-.hero-introduction {
+.hero-texts {
+  @include flex(center, center, column);
+  padding: 2rem 2rem;
   line-height: 5rem;
-  text-align: justify;
-  margin: 9rem;
-  h1 {
-    text-align: center;
-  }
+  flex: 1 1 40rem;
+}
+.hero-images {
+  object-fit: cover;
+  flex: 1 1 40rem;
+}
+.hero button {
+  margin: 3rem;
 }
 
-/* Animation */
-
-#upload {
-  animation: upload 0.7s ease infinite alternate;
-}
-
-#upload_2 {
-  animation: upload 0.7s ease infinite alternate;
-}
-
-#left-sync {
-  animation: left-sync 1.5s ease infinite alternate;
+#right-hand {
+  animation: writing 1.2s ease-in-out infinite alternate;
   transform-origin: bottom;
+  transform-box: fill-box;
 }
 
-#right-sync {
-  animation: right-sync 1.5s ease infinite alternate;
-  transform-origin: bottom;
-}
-
-@keyframes upload {
+@keyframes writing {
   from {
-    transform: translateY(0%);
+    transform: rotatex(0deg);
+    transform: rotatez(0deg);
   }
   to {
-    transform: translateY(-5%);
-  }
-}
-
-@keyframes upload_2 {
-  from {
-    transform: translateY(0%);
-  }
-  to {
-    transform: translateY(-5%);
-  }
-}
-
-@keyframes left-sync {
-  from {
-    transform: rotateZ(0deg);
-  }
-  to {
-    transform: rotateZ(5deg);
-  }
-}
-@keyframes right-sync {
-  from {
-    transform: rotateZ(0deg);
-  }
-  to {
-    transform: rotateZ(-4deg);
+    transform: rotatex(-20deg);
+    transform: rotatez(10deg);
   }
 }

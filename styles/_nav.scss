@@ -1,0 +1,33 @@
+.main-head {
+  margin: 0 0 0 auto;
+  box-shadow: 0px 10px 10px rgba(90, 90, 90, 0.4);
+  z-index: 10;
+  position: relative;
+}
+
+/* Nav */
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  padding: 2rem 0rem;
+}
+
+#logo {
+  flex: 1 1 20rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 20rem;
+}
+
+.active {
+  background: $gradient;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}

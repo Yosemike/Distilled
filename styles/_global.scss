@@ -45,3 +45,18 @@ a {
   text-decoration: none;
   color: $font-color;
 }
+
+button {
+  padding: 2rem 6rem;
+  background: #4c6e97;
+  color: white;
+  border-radius: 1rem;
+  font-size: 2.9rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+  background: #25364b;
+}
