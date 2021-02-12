@@ -1,7 +1,7 @@
 /* Intro */
 
 .intro {
-  min-height: 90vh;
+  min-height: 70vh;
   width: 90%;
   margin: 0 0 0 auto;
   @include flex(center, center, row);
@@ -25,6 +25,7 @@
 
 .intro-text {
   flex: 1 1 40rem;
+  padding: 2rem;
 }
 
 .intro-img {
@@ -38,4 +39,8 @@
   a {
     margin-right: 5rem;
   }
+}
+
+.burger {
+  display: none;
 }

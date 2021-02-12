@@ -11,6 +11,12 @@
     <meta name="robots" content="index, follow" />
     <link rel="icon" href="/icon/thunder.svg" />
     <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://app.snipcart.com" />
+    <link rel="preconnect" href="https://cdn.snipcart.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.snipcart.com/themes/v3.0.29/default/snipcart.css"
+    />
   </head>
   <body>
     <header class="main-head">
@@ -24,7 +30,28 @@
           <li><a href="/">Now</a></li>
           <li><a href="/blog/index.html">Blog</a></li>
           <li><a href="/">Shop</a></li>
+          <li>
+            <button class="header_checkout snipcart-checkout">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20 7h-4v-3c0-2.209-1.791-4-4-4s-4 1.791-4 4v3h-4l-2 17h20l-2-17zm-11-3c0-1.654 1.346-3 3-3s3 1.346 3 3v3h-6v-3zm-4.751 18l1.529-13h2.222v1.5c0 .276.224.5.5.5s.5-.224.5-.5v-1.5h6v1.5c0 .276.224.5.5.5s.5-.224.5-.5v-1.5h2.222l1.529 13h-15.502z"
+                />
+              </svg>
+              <span class="snipcart-total-price">$0.00</span>
+              <span class="snipcart-item-count">0</span>
+            </button>
+          </li>
         </ul>
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
       </nav>
     </header>
     <main>
@@ -382,7 +409,19 @@
             blanditiis hic dignissimos praesentium reprehenderit impedit
             deleniti sunt, quia nihil?
           </p>
-          <button>Learn here</button>
+          <button
+            class="buy-button snipcart-add-item"
+            data-item-id="1"
+            data-item-price="20.99"
+            data-item-url="/"
+            data-item-name="Starter Kit"
+            data-item-image="/img/ipad2.jpg"
+            data-item-description="This is a test product"
+            data-item-custom1-name="frame-colour"
+            data-item-custom1-options="Gold[+50.00]"
+          >
+            Learn here
+          </button>
         </div>
       </section>
       <section class="system">
@@ -448,5 +487,16 @@
         </li>
       </ul>
     </footer>
+    <script src="app.js"></script>
+    <script
+      async
+      src="https://cdn.snipcart.com/themes/v3.0.29/default/snipcart.js"
+    ></script>
+    <div
+      id="snipcart"
+      data-config-modal-style="side"
+      data-api-key="NDdlNTYxNTYtZTk5ZS00OGVkLWJhMmQtZWIyNDVjYWZhMjM5NjM3NDY5MTg3MzYwMjMzNDMz"
+      hidden
+    ></div>
   </body>
 </html>
