@@ -1,6 +1,6 @@
 .blog-introduction {
-  min-height: 30vh;
-  @include flex(center, center, row);
+  min-height: 15vh;
+  @include flex(center, center, column);
   flex-wrap: wrap;
   margin: 0 0 0 auto;
 }
@@ -19,7 +19,7 @@
   position: relative;
   min-width: 50rem;
   min-height: 40rem;
-  margin: 1.5rem;
+  margin: 1rem;
   transition: 250ms all ease-in-out;
   cursor: pointer;
 }
