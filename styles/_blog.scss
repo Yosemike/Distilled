@@ -18,7 +18,7 @@
   border-radius: 0.5rem;
   position: relative;
   min-width: 50rem;
-  min-height: 40rem;
+  min-height: 35rem;
   margin: 1rem;
   transition: 250ms all ease-in-out;
   cursor: pointer;
@@ -33,20 +33,57 @@
 .banner-img {
   position: absolute;
   object-fit: cover;
-  height: 14rem;
-  width: 100rem;
+  height: 20rem;
+  width: 100%;
 }
+.category-tag {
+  font-size: 2rem;
+  font-weight: bold;
+  background: $gradient;
+  padding: 0.5rem 1.3rem 0.5rem 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  border-radius: 0 2rem 2rem 0;
+}
+/* category tag colour
+.popular{
+  background: var();
+}
+*/
 .blog-card-body {
-  margin: 15rem 1rem 1rem 1rem;
+  margin: 22rem 1rem 1rem 1rem;
 }
 
 .blog-hashtag {
   font-size: 2rem;
   font-weight: 500;
+  color: rgba(4, 172, 214, 0.589);
 }
 .blog-title {
-  line-height: 3rem;
+  line-height: 1rem;
   margin: 3rem 0 3rem;
+}
+
+.pagination {
+  @include flex(center, center, row);
+  height: 10vh;
+}
+
+.pagination a {
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
 }
 
 /* Parent 

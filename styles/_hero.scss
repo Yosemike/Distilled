@@ -1,23 +1,30 @@
 .hero {
-  min-height: 70vh;
-  width: 90%;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent);
+  min-height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 1), transparent),
+    url(/img/speed.png);
   @include flex(center, center, row);
   flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-texts {
   @include flex(center, center, column);
-  padding: 2rem 2rem;
+  margin: 3rem;
+  padding: 5rem;
   line-height: 5rem;
-  flex: 1 1 40rem;
 }
-.hero-images {
-  object-fit: cover;
-  flex: 1 1 40rem;
-}
+
 .hero button {
   margin: 3rem;
+}
+
+/*
+
+.hero-images {
+  object-fit: cover;
+  flex: 1 1 auto;
+  margin-left: 3rem;
 }
 
 #right-hand {
@@ -36,3 +43,5 @@
     transform: rotatez(10deg);
   }
 }
+ 
+*/

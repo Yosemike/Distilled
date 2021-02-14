@@ -29,6 +29,8 @@ $font-color: #ffffff;
 @import "nav";
 @import "system";
 @import "contact";
+@import "shop";
+@import "snipcart-overwrite";
 
 @media screen and (max-width: 1256px) {
   /* Burger Thing */
@@ -84,12 +86,17 @@ $font-color: #ffffff;
     width: 100%;
   }
   .intro {
-    width: 100%;
     padding: 2rem 5rem;
+    flex-wrap: wrap;
   }
   .intro-img {
     text-align: center;
+    height: 70%;
     margin: 0rem;
+  }
+  .hero {
+    flex-wrap: wrap;
+    padding: 2rem 5rem;
   }
 }
 
