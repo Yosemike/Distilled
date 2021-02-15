@@ -104,29 +104,17 @@ $font-color: #ffffff;
   html {
     font-size: 45%;
   }
-  svg {
-    height: 60%;
-  }
   .main-head {
     width: 100%;
   }
-  nav {
-    .logo {
-      @include flex(center, center, column);
-      flex: 1 1 20rem;
-      margin-top: 2rem;
-    }
-    ul {
-      flex: 1 1 60rem;
-      margin: 2rem 0rem;
-    }
+  #logo {
+    margin-left: 4rem;
   }
-  .intro-text {
-    margin-top: 5rem;
-    text-align: center;
+  .nav-links {
+    margin-right: 4rem;
   }
   .intro-img {
-    text-align: center;
+    padding-top: 3rem;
   }
   .intro-social {
     @include flex(center, center, row);

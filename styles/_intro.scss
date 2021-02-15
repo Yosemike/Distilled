@@ -5,17 +5,15 @@
   @include flex(center, center, row);
   flex-wrap: nowrap;
   h2 {
-    font-size: 8rem;
-    padding-top: 2rem;
+    font-size: 7rem;
     color: #38b9bc;
     display: inline-block;
   }
   h3 {
-    font-size: 6rem;
+    font-size: 5rem;
     padding: 2rem 0rem;
   }
   p {
-    padding-top: 2rem;
     color: $font-color;
   }
 }
@@ -34,6 +32,19 @@
 
 .intro-social {
   margin-top: 4rem;
+  button {
+    padding: 1rem 2rem;
+    background: #38b9bc;
+    color: white;
+    border-radius: 1rem;
+    font-size: 2.9rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+  }
+  button:hover {
+    background: $background-color;
+  }
 }
 
 .burger {

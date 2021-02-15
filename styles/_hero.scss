@@ -1,7 +1,7 @@
 .hero {
   min-height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 1), transparent),
-    url(/img/speed.png);
+    url(/img/black-light.jpg);
   @include flex(center, center, row);
   flex-wrap: wrap;
   background-repeat: no-repeat;
@@ -13,10 +13,21 @@
   margin: 3rem;
   padding: 5rem;
   line-height: 5rem;
+  background: linear-gradient(rgba(0, 0, 0, 1), transparent);
 }
 
 .hero button {
-  margin: 3rem;
+  padding: 1rem 2rem;
+  background: #38b9bc;
+  color: white;
+  border-radius: 1rem;
+  font-size: 2.9rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+}
+.hero button:hover {
+  background: $background-color;
 }
 
 /*
