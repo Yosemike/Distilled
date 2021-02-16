@@ -1,7 +1,7 @@
 /* Intro */
 
 .intro {
-  min-height: 40vh;
+  min-height: 45vh;
   @include flex(center, center, row);
   flex-wrap: nowrap;
   h2 {

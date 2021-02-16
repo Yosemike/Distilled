@@ -1,7 +1,6 @@
 .hero {
   min-height: 50vh;
-  background: linear-gradient(rgba(0, 0, 0, 1), transparent),
-    url(/img/black-light.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 1), transparent);
   @include flex(center, center, row);
   flex-wrap: wrap;
   background-repeat: no-repeat;

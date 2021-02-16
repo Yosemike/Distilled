@@ -1,6 +1,5 @@
 .system-head {
-  background: linear-gradient(rgba(0, 0, 0, 1), transparent),
-    url(/img/black-sky.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 1), transparent);
   padding: 3rem;
   min-height: 30vh;
   @include flex(center, center, column);
@@ -13,8 +12,7 @@
 }
 
 .cards {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url(/img/black-sky.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
   width: 90%;
   min-height: 70vh;
   flex-wrap: wrap;
