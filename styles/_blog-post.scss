@@ -1,0 +1,16 @@
+.blog-post-header {
+  @include flex(center, center, column);
+  flex-wrap: wrap;
+  min-height: 40vh;
+  height: 40vh;
+  box-shadow: 0px 10px 10px rgba(90, 90, 90, 0.4);
+  background: url(/img/black-light.jpg);
+  transition: all 4s ease 4s;
+}
+
+.blog-post {
+  @include flex(center, center, column);
+  min-height: 100vh;
+  line-height: 4rem;
+  padding: 9rem;
+}

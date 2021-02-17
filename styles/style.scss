@@ -1,4 +1,4 @@
-$header1: 2.5rem;
+$header1: 4.5rem;
 $header2: 4rem;
 $header3: 2.5rem;
 $header4: 2rem;
@@ -31,6 +31,7 @@ $font-color: #ffffff;
 @import "contact";
 @import "shop";
 @import "snipcart-overwrite";
+@import "blog-post";
 
 @media screen and (max-width: 1256px) {
   /* Burger Thing */
