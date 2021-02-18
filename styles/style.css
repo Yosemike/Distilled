@@ -607,7 +607,7 @@ nav {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 25rem;
           flex: 1 1 25rem;
-  min-height: 40vh;
+  min-height: 45vh;
   margin: 2rem 5rem;
   -webkit-box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1), 0px 20px 20px rgba(255, 255, 255, 0.1);
           box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1), 0px 20px 20px rgba(255, 255, 255, 0.1);
@@ -619,6 +619,11 @@ nav {
 }
 
 .card img {
+  max-width: 15%;
+  margin: 2rem;
+}
+
+.card card-icon {
   max-width: 15%;
   margin: 2rem;
 }
@@ -1121,22 +1126,28 @@ nav {
 }
 
 @media screen and (max-width: 1256px) {
+  /* Global */
+  html {
+    font-size: 53%;
+  }
   /* Burger Thing */
   .burger {
     position: relative;
     display: block;
+    padding-right: 4rem;
   }
   .burger:hover {
     cursor: pointer;
   }
   .burger span {
     padding: 0.2rem 2rem;
-    background: #154353;
+    background: white;
     margin: 0.5rem 0rem;
     display: block;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
+  /* Nav */
   .nav-links a {
     color: white;
     font-size: 4.5rem;
@@ -1178,62 +1189,127 @@ nav {
             transform: rotateZ(-45deg) translateY(-300%);
     background: white;
   }
-  html {
-    font-size: 53%;
-  }
   nav {
     width: 100%;
   }
+  #logo {
+    padding-left: 4rem;
+  }
+  /* intro */
   .intro {
-    padding: 2rem 5rem;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
   .intro-img {
     text-align: center;
-    height: 70%;
     margin: 0rem;
+    padding-top: 3rem;
   }
+  /* Hero */
   .hero {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: 2rem 5rem;
+  }
+  /* System */
+  .card-icon {
+    height: 25%;
   }
 }
 
 @media screen and (max-width: 754px) {
+  /* Global */
   html {
     font-size: 45%;
   }
   .main-head {
     width: 100%;
   }
-  #logo {
-    margin-left: 4rem;
+  /* Burger Thing */
+  .burger {
+    position: relative;
+    display: block;
+    padding-right: 4rem;
+  }
+  .burger:hover {
+    cursor: pointer;
+  }
+  .burger span {
+    padding: 0.2rem 2rem;
+    background: white;
+    margin: 0.5rem 0rem;
+    display: block;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  /* Nav */
+  .nav-links a {
+    color: white;
+    font-size: 4.5rem;
+    text-decoration: underline;
   }
   .nav-links {
-    margin-right: 4rem;
-  }
-  .intro-img {
-    padding-top: 3rem;
-  }
-  .intro-social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    background: #154353;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: -webkit-transform 1s ease;
+    transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
   }
-  .intro-social a {
-    margin: 2rem;
+  .nav-open {
+    -webkit-transform: translatex(-100%);
+            transform: translatex(-100%);
+  }
+  .toggle .line1 {
+    -webkit-transform: rotateZ(45deg) translateY(300%);
+            transform: rotateZ(45deg) translateY(300%);
+    background: white;
+  }
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    -webkit-transform: rotateZ(-45deg) translateY(-300%);
+            transform: rotateZ(-45deg) translateY(-300%);
+    background: white;
+  }
+  nav {
+    width: 100%;
+  }
+  /* Intro */
+  .intro-text {
+    padding: 2rem;
+  }
+  /* Hero */
+  .hero button {
+    margin-top: 3rem;
+  }
+  /* System */
+  .card-icon {
+    height: 30%;
+  }
+  /* Contact */
+  .form-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 /*# sourceMappingURL=style.css.map */
