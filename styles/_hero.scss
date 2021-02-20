@@ -1,16 +1,20 @@
 .hero {
   min-height: 30vh;
   background: linear-gradient(rgba(0, 0, 0, 1), transparent);
+  background-color: rgb(32, 32, 32);
   @include flex(center, center, row);
   flex-wrap: wrap;
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
+  h1,
+  p {
+    padding: 1rem;
+  }
 }
 
 .hero-texts {
   @include flex(center, center, column);
-  margin: 3rem;
-  padding: 5rem;
   background: linear-gradient(rgba(0, 0, 0, 1), transparent);
 }
 
@@ -19,7 +23,7 @@
   background: #38b9bc;
   color: white;
   border-radius: 1rem;
-  font-size: 2.9rem;
+  font-size: 2rem;
   border: none;
   cursor: pointer;
   transition: background 0.5s ease-in-out;

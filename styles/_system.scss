@@ -1,7 +1,7 @@
 .system-head {
   background: linear-gradient(rgba(0, 0, 0, 1), transparent);
   padding: 3rem;
-  min-height: 30vh;
+  min-height: 20vh;
   @include flex(center, center, column);
   text-align: center;
   line-height: 4rem;
@@ -26,7 +26,7 @@
 
 .card {
   flex: 1 1 25rem;
-  min-height: 45vh;
+  min-height: 40vh;
   margin: 2rem 5rem;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1),
     0px 20px 20px rgba(255, 255, 255, 0.1);
