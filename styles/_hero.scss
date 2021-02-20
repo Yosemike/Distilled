@@ -1,5 +1,5 @@
 .hero {
-  min-height: 50vh;
+  min-height: 30vh;
   background: linear-gradient(rgba(0, 0, 0, 1), transparent);
   @include flex(center, center, row);
   flex-wrap: wrap;
@@ -11,7 +11,6 @@
   @include flex(center, center, column);
   margin: 3rem;
   padding: 5rem;
-  line-height: 5rem;
   background: linear-gradient(rgba(0, 0, 0, 1), transparent);
 }
 

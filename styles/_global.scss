@@ -8,16 +8,21 @@
 
 html {
   font-size: 62.5%;
+  font-weight: 100;
   background-color: black;
   color: white;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat-Thin.ttf);
+  font-weight: 100;
+  line-height: 3rem;
 }
 
 h1 {
   font-size: $header1;
+  font-weight: 100;
 }
 li,
 button,
@@ -26,24 +31,30 @@ input,
 a,
 p {
   font-size: $text;
+  font-weight: 100;
 }
 h2 {
   font-size: $header2;
+  font-weight: 100;
 }
 h3 {
   font-size: $header3;
+  font-weight: 100;
 }
 h4,
 h5 {
   font-size: $header4;
+  font-weight: 100;
 }
 
 ul {
   list-style: none;
+  font-weight: 100;
 }
 a {
   text-decoration: none;
   color: $font-color;
+  font-weight: 100;
 }
 
 /*

@@ -4,13 +4,11 @@
   min-height: 45vh;
   @include flex(center, center, row);
   flex-wrap: nowrap;
-  h2 {
-    font-size: 7rem;
+  h1 {
     color: #38b9bc;
     display: inline-block;
   }
   h3 {
-    font-size: 5rem;
     padding: 2rem 0rem;
   }
   p {
