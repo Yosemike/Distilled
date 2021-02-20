@@ -601,7 +601,7 @@ nav {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent));
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
   width: 90%;
-  min-height: 50vh;
+  min-height: 27vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: auto;
@@ -615,10 +615,10 @@ nav {
 
 .card {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 25rem;
-          flex: 1 1 25rem;
-  min-height: 40vh;
-  margin: 2rem 5rem;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  min-height: 27vh;
+  margin: 1rem 5rem;
   -webkit-box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1), 0px 20px 20px rgba(255, 255, 255, 0.1);
           box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1), 0px 20px 20px rgba(255, 255, 255, 0.1);
   text-align: center;
@@ -631,6 +631,7 @@ nav {
 .card img {
   max-width: 15%;
   margin: 2rem;
+  height: 3rem;
 }
 
 .card card-icon {
@@ -639,8 +640,8 @@ nav {
 }
 
 .card p,
-.card h4 {
-  padding: 3rem;
+.card h3 {
+  padding: 1.7rem;
 }
 
 .card:hover {
@@ -651,9 +652,9 @@ nav {
 }
 
 .card-icon {
-  height: 115px;
-  background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
-  background: linear-gradient(left, #38d39f, #38a4d3);
+  height: 6.8rem;
+  background: url(/img/splash.svg);
+  background-position: center;
 }
 
 #contact {
