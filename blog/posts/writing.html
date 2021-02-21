@@ -21,21 +21,19 @@
   <body>
     <header class="main-head">
       <nav>
-        <h1 id="logo">
-          <a class="active" href="/index.html"
-            ><img src="/icon/ligntning.svg" alt=""
-          /></a>
-        </h1>
+        <li id="logo">
+          <a class="active" href="/index.html">Distill Institute</a>
+        </li>
         <ul class="nav-links">
-          <li><a href="/">Now</a></li>
+          <li><a href="/now/index.html">Now</a></li>
           <li><a class="active" href="/blog/index.html">Blog</a></li>
           <li><a href="/shop/index.html">Shop</a></li>
           <li>
             <button class="header_checkout snipcart-checkout">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
+                width="32"
+                height="32"
                 viewBox="0 0 24 24"
                 fill="white"
               >
@@ -119,17 +117,54 @@
       <section id="contact">
         <div class="form-wrapper">
           <header class="form-head">
-            <h2>Subscribe</h2>
+            <h1>Two Notes Tuesday</h1>
+            <h2>Learn 2 ideas in 2 minutes</h2>
+            <p>
+              Have my personal notes delivered straight into your inbox. Each
+              week, I send one email where I share two top ideas that I learned.
+            </p>
           </header>
-          <form>
+          <form
+            action="https://distillinstitute.us10.list-manage.com/subscribe/post?u=1f714f44617f22c117e2211f2&amp;id=d722cb9b2e"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
             <div class="name-form">
-              <label for="name">Name:</label>
-              <input id="name" type="text" name="name" required />
+              <label for="name">Name:&nbsp;</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Nickname"
+                class="form-control"
+              />
               <div class="email-form">
-                <label for="email">Email:</label>
-                <input id="email" type="email" name="email" required />
+                <label for="email">Email: &nbsp;</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Address"
+                  required
+                />
               </div>
-              <button type="submit">Submit</button>
+              <button type="submit">Subscribe</button>
+            </div>
+            <div id="mce-responses" class="clear">
+              <div
+                class="response"
+                id="mce-error-response"
+                style="display: none"
+              ></div>
+              <div
+                class="response"
+                id="mce-success-response"
+                style="display: none"
+              ></div>
             </div>
           </form>
         </div>

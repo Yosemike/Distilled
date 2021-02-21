@@ -3,7 +3,8 @@
   @include flex(center, center, column);
   flex-wrap: wrap;
   margin: 0 0 0 auto;
-  background: url(/img/shop-ideas.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 1), transparent),
+    url(/img/shop-ideas.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
