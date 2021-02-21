@@ -21,21 +21,19 @@
   <body>
     <header class="main-head">
       <nav>
-        <h1 id="logo">
-          <a class="active" href="index.html"
-            ><img src="/icon/ligntning.svg" alt=""
-          /></a>
-        </h1>
+        <li id="logo">
+          <a class="active" href="/index.html">Distill Institute</a>
+        </li>
         <ul class="nav-links">
-          <li><a href="/">Now</a></li>
+          <li><a href="/now/index.html">Now</a></li>
           <li><a href="/blog/index.html">Blog</a></li>
           <li><a href="/shop/index.html">Shop</a></li>
           <li>
             <button class="header_checkout snipcart-checkout">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
+                width="32"
+                height="32"
                 viewBox="0 0 24 24"
                 fill="white"
               >
@@ -61,14 +59,12 @@
     <main>
       <section class="intro">
         <div class="intro-text">
-          <h2>Distill Institute</h2>
-          <h3>
-            Skills learning <br />
-            Notetaking
-          </h3>
+          <h1>Learn skills fast</h1>
+          <h3>Creating better systems</h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui,
-            distinctio?
+            I write about systems to write better, take notes and get things
+            done. My essays cover topics such as business, entrepreneurship and
+            productivity. I also share my learnings and ideas on Twitter.
           </p>
           <div class="intro-social">
             <button>
@@ -304,79 +300,108 @@
           </svg>
         </div>
       </section>
-      <section class="hero">
-        <div class="hero-texts">
-          <h1>This is what this blog about</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus fuga velit id maxime molestias culpa sint. Harum,
-            placeat illum voluptatum perferendis odio totam voluptates
-            blanditiis hic dignissimos praesentium reprehenderit impedit
-            deleniti sunt, quia nihil?
-          </p>
-          <button
-            class="buy-button snipcart-add-item"
-            data-item-id="1"
-            data-item-price="20.99"
-            data-item-url="/"
-            data-item-name="Starter Kit"
-            data-item-image="/img/ipad2.jpg"
-            data-item-description="This is a test product"
-            data-item-custom1-name="frame-colour"
-            data-item-custom1-options="Gold[+50.00]"
-          >
-            Learn here
-          </button>
-        </div>
-      </section>
       <section class="system">
         <header class="system-head">
-          <h2>The Perfect System</h2>
-          <h3>
-            I distill everything from learning a language <br />
-            to investing to get rich.
-          </h3>
+          <h2>Read my top essays</h2>
+          <h4>
+            I distill lessons I learned so you can save time by just reading the
+            essence of a skill.
+          </h4>
         </header>
         <div class="cards">
           <div class="card">
-            <div class="card-icon">
-              <img src="/icon/edit.svg" alt="" />
-            </div>
-            <h4>Blog</h4>
-            <p>Read the skills that I have distilled.</p>
+            <a
+              href="https://distillinstitute.com/lessons/4Dials-to-up-your-writing-quick/"
+            >
+              <div class="card-icon">
+                <img src="/icon/edit.svg" alt="" />
+              </div>
+              <h3>Writing</h3>
+              <p>4 quick tools to write better</p>
+            </a>
           </div>
           <div class="card">
             <div class="card-icon">
               <img src="/icon/settings.svg" alt="" />
             </div>
-            <h4>Tools</h4>
+            <h3>Tools</h3>
             <p>Get the tools for you to learn fast.</p>
           </div>
           <div class="card">
             <div class="card-icon">
               <img src="/icon/shopping-cart.svg" alt="" />
             </div>
-            <h4>Shop</h4>
-            <p>
-              Check out the templates and books for you to learn to learn fast.
-            </p>
+            <h3>Shop</h3>
+            <p>Tools and template to learn fast.</p>
           </div>
         </div>
       </section>
+      <!-- 
+      <section class="hero">
+      
+        <div class="hero-texts">
+          <h1>Learn 2 ideas in 2 minutes</h1>
+          <p>
+            Have my personal notes delivered straight into your inbox. <br />
+            Each week, I send one email where I share two top ideas that I
+            learned. <br />
+            Two Ideas Tuesdays is a collection of the notes I learn every week.
+          </p>
+        </div>
+        
+      </section>
+      -->
       <section id="contact">
         <div class="form-wrapper">
           <header class="form-head">
-            <h2>Subscribe</h2>
+            <h1>Two Notes Tuesday</h1>
+            <h2>Learn 2 ideas in 2 minutes</h2>
+            <p>
+              Have my personal notes delivered straight into your inbox. Each
+              week, I send one email where I share two top ideas that I learned.
+            </p>
           </header>
-          <form>
+          <form
+            action="https://distillinstitute.us10.list-manage.com/subscribe/post?u=1f714f44617f22c117e2211f2&amp;id=d722cb9b2e"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
             <div class="name-form">
-              <label for="name">Name:</label>
-              <input id="name" type="text" name="name" required />
+              <label for="name">Name:&nbsp;</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Nickname"
+                class="form-control"
+              />
               <div class="email-form">
-                <label for="email">Email:</label>
-                <input id="email" type="email" name="email" required />
+                <label for="email">Email: &nbsp;</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Address"
+                  required
+                />
               </div>
-              <button type="submit">Submit</button>
+              <button type="submit">Subscribe</button>
+            </div>
+            <div id="mce-responses" class="clear">
+              <div
+                class="response"
+                id="mce-error-response"
+                style="display: none"
+              ></div>
+              <div
+                class="response"
+                id="mce-success-response"
+                style="display: none"
+              ></div>
             </div>
           </form>
         </div>

@@ -1,52 +1,70 @@
+.system {
+  min-height: 60vh;
+}
+
 .system-head {
   background: linear-gradient(rgba(0, 0, 0, 1), transparent);
   padding: 3rem;
-  min-height: 30vh;
+  min-height: 20vh;
   @include flex(center, center, column);
   text-align: center;
   line-height: 4rem;
   color: white;
-  h3 {
-    padding: 2rem;
+  flex-wrap: wrap;
+  h2 {
+    color: #38b9bc;
+    padding: 1rem;
   }
 }
 
 .cards {
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
-  width: 90%;
-  min-height: 70vh;
+  width: 95%;
+  height: 30vh;
+  min-height: 27vh;
+  max-height: 37vh;
   flex-wrap: wrap;
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex: 1 0 20rem;
 }
 
 .card {
-  flex: 1 1 25rem;
-  min-height: 40vh;
-  margin: 2rem 5rem;
+  flex: 1 1 20rem;
+  min-height: 27vh;
+  margin: 1rem 5rem;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1),
-    0px 20px 20px rgba(255, 255, 255, 0.1);
+    0px 15px 15px rgba(255, 255, 255, 0.055);
   text-align: center;
   background: rgb(31, 31, 31);
   transition: 250ms all ease-in-out;
+  border-radius: 2rem;
   cursor: pointer;
   img {
     max-width: 15%;
     margin: 2rem;
+    height: 2.5rem;
+  }
+  card-icon {
+    max-width: 15%;
+    margin: 2rem;
   }
   p,
-  h4 {
-    padding: 3rem;
+  h3 {
+    padding: 1.7rem;
   }
 }
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
   box-shadow: 0px 10px 15px rgba(255, 255, 255, 0.1),
     0px 20px 25px rgba(255, 255, 255, 0.1);
 }
 
 .card-icon {
-  height: 115px;
-  background: $gradient;
+  height: 6.8rem;
+  background: url(/img/splash.svg);
+  background-position: center;
+  border-radius: 2rem 2rem 0 0;
 }

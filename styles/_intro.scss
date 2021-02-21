@@ -4,13 +4,11 @@
   min-height: 45vh;
   @include flex(center, center, row);
   flex-wrap: nowrap;
-  h2 {
-    font-size: 7rem;
+  h1 {
     color: #38b9bc;
     display: inline-block;
   }
   h3 {
-    font-size: 5rem;
     padding: 2rem 0rem;
   }
   p {
@@ -20,12 +18,13 @@
 
 .intro-text {
   flex: 1 1 auto;
-  margin: 3rem;
-  padding-left: 5rem;
+  margin: 8.5rem;
   text-align: left;
 }
 
 .intro-img {
+  margin: 2rem;
+  width: 80rem;
   flex: 1 1 auto;
   object-fit: cover;
 }
@@ -33,7 +32,7 @@
 .intro-social {
   margin-top: 4rem;
   button {
-    padding: 1rem 2rem;
+    padding: 0.1rem 1.8rem 0.9rem 2rem;
     background: #38b9bc;
     color: white;
     border-radius: 1rem;
@@ -45,8 +44,39 @@
   button:hover {
     background: $background-color;
   }
+  img {
+    height: 1.8rem;
+    width: 2rem;
+  }
 }
 
 .burger {
   display: none;
+}
+
+#play-button {
+  animation: play-button 1.8s ease-in-out;
+}
+#scrub {
+  animation: scrub 1s ease-in-out;
+  animation-delay: 1.8s;
+}
+
+/* Animation */
+
+@keyframes play-button {
+  from {
+    transform: scalex(0.8);
+  }
+  to {
+    transform: scalex(1);
+  }
+}
+@keyframes scrub {
+  from {
+    transform: scalex(1);
+  }
+  to {
+    transform: scalex(1.2);
+  }
 }
