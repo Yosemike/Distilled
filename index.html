@@ -21,9 +21,9 @@
   <body>
     <header class="main-head">
       <nav>
-        <h1 id="logo">
-          <a class="active" href="index.html">Distill Institute</a>
-        </h1>
+        <li id="logo">
+          <a class="active" href="/index.html">Distill Institute</a>
+        </li>
         <ul class="nav-links">
           <li><a href="/now/index.html">Now</a></li>
           <li><a href="/blog/index.html">Blog</a></li>
@@ -62,10 +62,9 @@
           <h1>Learn skills fast</h1>
           <h3>Creating better systems</h3>
           <p>
-            I write about systems to write better, take notes and <br />
-            get things done. My essays cover topics such as business, <br />
-            entrepreneurship and productivity. I also share my learnings <br />
-            and ideas on Twitter.
+            I write about systems to write better, take notes and get things
+            done. My essays cover topics such as business, entrepreneurship and
+            productivity. I also share my learnings and ideas on Twitter.
           </p>
           <div class="intro-social">
             <button>
@@ -337,7 +336,9 @@
           </div>
         </div>
       </section>
+      <!-- 
       <section class="hero">
+      
         <div class="hero-texts">
           <h1>Learn 2 ideas in 2 minutes</h1>
           <p>
@@ -346,25 +347,20 @@
             learned. <br />
             Two Ideas Tuesdays is a collection of the notes I learn every week.
           </p>
-          <button
-            class="buy-button snipcart-add-item"
-            data-item-id="1"
-            data-item-price="20.99"
-            data-item-url="/"
-            data-item-name="Starter Kit"
-            data-item-image="/img/ipad2.jpg"
-            data-item-description="This is a test product"
-            data-item-custom1-name="frame-colour"
-            data-item-custom1-options="Gold[+50.00]"
-          >
-            Learn here
-          </button>
         </div>
+        
       </section>
+      -->
       <section id="contact">
         <div class="form-wrapper">
           <header class="form-head">
-            <h2>Join Two Notes Tuesday</h2>
+            <h1>Two Notes Tuesday</h1>
+            <h2>Learn 2 ideas in 2 minutes</h2>
+            <p>
+              Have my personal notes delivered straight into your inbox. Each
+              week, I send one email where I share two top ideas that I learn
+              every week.
+            </p>
           </header>
           <form
             action="https://distillinstitute.us10.list-manage.com/subscribe/post?u=1f714f44617f22c117e2211f2&amp;id=d722cb9b2e"
@@ -376,11 +372,23 @@
             novalidate
           >
             <div class="name-form">
-              <label for="name">Name:</label>
-              <input id="name" type="text" name="name" required />
+              <label for="name">Name:&nbsp;</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Nickname"
+                class="form-control"
+              />
               <div class="email-form">
-                <label for="email">Email:</label>
-                <input id="email" type="email" name="email" required />
+                <label for="email">Email: &nbsp;</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Address"
+                  required
+                />
               </div>
               <button type="submit">Subscribe</button>
             </div>
