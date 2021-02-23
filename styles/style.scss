@@ -179,8 +179,10 @@ $font-color: #ffffff;
     flex-wrap: wrap;
   }
   .intro-img {
-    text-align: center;
-    margin: 0rem;
+    img {
+      width: 55rem;
+      height: auto;
+    }
   }
 
   /* Hero */

@@ -17,14 +17,12 @@
 }
 
 .intro-text {
-  flex: 1 1 auto;
+  flex: 2 1 auto;
   margin: 8.5rem;
   text-align: left;
 }
 
 .intro-img {
-  margin: 2rem;
-  width: 80rem;
   flex: 1 1 auto;
   object-fit: cover;
 }
@@ -54,6 +52,8 @@
   display: none;
 }
 
+/* Animation 
+
 #play-button {
   animation: play-button 1.8s ease-in-out;
 }
@@ -62,7 +62,7 @@
   animation-delay: 1.8s;
 }
 
-/* Animation */
+
 
 @keyframes play-button {
   from {
@@ -80,3 +80,5 @@
     transform: scalex(1.2);
   }
 }
+
+*/
