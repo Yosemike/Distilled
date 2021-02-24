@@ -585,8 +585,6 @@ nav .ul {
 nav .ul :hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-box-shadow: 0px 10px 15px rgba(255, 255, 255, 0.1), 0px 20px 25px rgba(255, 255, 255, 0.1);
-          box-shadow: 0px 10px 15px rgba(255, 255, 255, 0.1), 0px 20px 25px rgba(255, 255, 255, 0.1);
 }
 
 .active {
@@ -598,7 +596,7 @@ nav .ul :hover {
 }
 
 #logo {
-  font-weight: 100;
+  font-weight: 200;
   -webkit-box-flex: 6;
       -ms-flex: 6 1 30rem;
           flex: 6 1 30rem;
@@ -810,6 +808,11 @@ nav .ul :hover {
 .form-head {
   text-align: center;
   padding: 4rem;
+}
+
+.form-head h1,
+.form-head h2 {
+  line-height: 3.5rem;
 }
 
 .name-form,
@@ -1315,7 +1318,7 @@ nav .ul :hover {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  width: 55em;
+  width: 75em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   min-height: 80vh;
@@ -1407,10 +1410,6 @@ nav .ul :hover {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .intro-img {
-    text-align: center;
-    margin: 0rem;
-  }
   /* Hero */
   /* System */
   .system {
@@ -1431,7 +1430,7 @@ nav .ul :hover {
 @media screen and (max-width: 820px) {
   /* Global */
   html {
-    font-size: 48%;
+    font-size: 55%;
   }
   .main-head {
     width: 100%;
@@ -1440,7 +1439,7 @@ nav .ul :hover {
   .burger {
     position: relative;
     display: block;
-    padding-right: 4rem;
+    padding-right: 2rem;
   }
   .burger:hover {
     cursor: pointer;
@@ -1503,15 +1502,25 @@ nav .ul :hover {
   }
   nav {
     width: 100%;
+    padding: 1rem;
+  }
+  #logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 30rem;
+            flex: 1 1 30rem;
+    padding: 1rem;
   }
   /* Intro */
   .intro {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .intro-text {
+    margin: 3rem;
+  }
   .intro-img img {
-    width: 55rem;
-    height: auto;
+    width: 45rem;
+    height: 20rem;
   }
   /* Hero */
   /* System */
@@ -1522,8 +1531,7 @@ nav .ul :hover {
     min-height: 80vh;
   }
   .system-head {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin: 1rem;
   }
   .card {
     margin: 4rem;
@@ -1549,6 +1557,14 @@ nav .ul :hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  /* Now Page */
+  .now-head {
+    width: 100%;
+    text-align: center;
+  }
+  .now-texts {
+    width: 100%;
   }
   /* Blog */
   .blog-card {

@@ -92,8 +92,6 @@ $font-color: #ffffff;
     flex-wrap: wrap;
   }
   .intro-img {
-    text-align: center;
-    margin: 0rem;
   }
 
   /* Hero */
@@ -119,7 +117,7 @@ $font-color: #ffffff;
 @media screen and (max-width: 820px) {
   /* Global */
   html {
-    font-size: 48%;
+    font-size: 55%;
   }
   .main-head {
     width: 100%;
@@ -128,7 +126,7 @@ $font-color: #ffffff;
   .burger {
     position: relative;
     display: block;
-    padding-right: 4rem;
+    padding-right: 2rem;
   }
   .burger:hover {
     cursor: pointer;
@@ -172,16 +170,24 @@ $font-color: #ffffff;
   }
   nav {
     width: 100%;
+    padding: 1rem;
+  }
+  #logo {
+    flex: 1 1 30rem;
+    padding: 1rem;
   }
   /* Intro */
 
   .intro {
     flex-wrap: wrap;
   }
+  .intro-text {
+    margin: 3rem;
+  }
   .intro-img {
     img {
-      width: 55rem;
-      height: auto;
+      width: 45rem;
+      height: 20rem;
     }
   }
 
@@ -196,8 +202,7 @@ $font-color: #ffffff;
   }
 
   .system-head {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin: 1rem;
   }
 
   .card {
@@ -224,6 +229,17 @@ $font-color: #ffffff;
   .email-form {
     padding: 1.5rem;
     align-items: center;
+  }
+
+  /* Now Page */
+
+  .now-head {
+    width: 100%;
+    text-align: center;
+  }
+
+  .now-texts {
+    width: 100%;
   }
 
   /* Blog */
