@@ -113,16 +113,14 @@ button:hover {
 }
 
 .intro-text {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 auto;
+          flex: 2 1 auto;
   margin: 8.5rem;
   text-align: left;
 }
 
 .intro-img {
-  margin: 2rem;
-  width: 80rem;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -159,62 +157,36 @@ button:hover {
   display: none;
 }
 
+/* Animation 
+
 #play-button {
-  -webkit-animation: play-button 1.8s ease-in-out;
-          animation: play-button 1.8s ease-in-out;
+  animation: play-button 1.8s ease-in-out;
 }
-
 #scrub {
-  -webkit-animation: scrub 1s ease-in-out;
-          animation: scrub 1s ease-in-out;
-  -webkit-animation-delay: 1.8s;
-          animation-delay: 1.8s;
+  animation: scrub 1s ease-in-out;
+  animation-delay: 1.8s;
 }
 
-/* Animation */
-@-webkit-keyframes play-button {
-  from {
-    -webkit-transform: scalex(0.8);
-            transform: scalex(0.8);
-  }
-  to {
-    -webkit-transform: scalex(1);
-            transform: scalex(1);
-  }
-}
+
+
 @keyframes play-button {
   from {
-    -webkit-transform: scalex(0.8);
-            transform: scalex(0.8);
+    transform: scalex(0.8);
   }
   to {
-    -webkit-transform: scalex(1);
-            transform: scalex(1);
+    transform: scalex(1);
   }
 }
-
-@-webkit-keyframes scrub {
-  from {
-    -webkit-transform: scalex(1);
-            transform: scalex(1);
-  }
-  to {
-    -webkit-transform: scalex(1.2);
-            transform: scalex(1.2);
-  }
-}
-
 @keyframes scrub {
   from {
-    -webkit-transform: scalex(1);
-            transform: scalex(1);
+    transform: scalex(1);
   }
   to {
-    -webkit-transform: scalex(1.2);
-            transform: scalex(1.2);
+    transform: scalex(1.2);
   }
 }
 
+*/
 .blog-introduction {
   min-height: 45vh;
   display: -webkit-box;
@@ -1537,9 +1509,9 @@ nav .ul :hover {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .intro-img {
-    text-align: center;
-    margin: 0rem;
+  .intro-img img {
+    width: 55rem;
+    height: auto;
   }
   /* Hero */
   /* System */
