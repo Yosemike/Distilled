@@ -91,8 +91,6 @@ $font-color: #ffffff;
   .intro {
     flex-wrap: wrap;
   }
-  .intro-img {
-  }
 
   /* Hero */
 
@@ -111,6 +109,24 @@ $font-color: #ffffff;
 
   .card-icon {
     height: 25%;
+  }
+
+  .card {
+    min-height: auto;
+  }
+
+  /* Contact */
+
+  #contact {
+    margin-top: 5rem;
+    height: 100%;
+    width: 100%;
+  }
+  .form-wrapper {
+    margin-top: 5rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
   }
 }
 
@@ -211,7 +227,7 @@ $font-color: #ffffff;
   }
 
   .cards {
-    min-height: 100vh;
+    min-height: 80vh;
   }
 
   /* Contact */
@@ -224,6 +240,7 @@ $font-color: #ffffff;
 
   .form-wrapper {
     width: 100%;
+    height: 100%;
     align-items: center;
   }
   .name-form,
