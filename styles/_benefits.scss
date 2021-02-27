@@ -1,16 +1,13 @@
-.system {
-  min-height: 70vh;
-}
-
-.system-head {
+.benefits-head {
   background: linear-gradient(rgba(0, 0, 0, 1), transparent);
   padding: 3rem;
   min-height: 20vh;
-  @include flex(center, center, column);
-  text-align: center;
-  line-height: 4rem;
   color: white;
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   h2 {
     color: #38b9bc;
     padding: 1rem;
@@ -19,23 +16,21 @@
 
 .cards {
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
-  width: 95%;
-  height: 30vh;
-  min-height: 20vh;
-  max-height: 14vh;
-  flex-wrap: wrap;
+  width: 90%;
   margin: auto;
   display: flex;
+  min-height: 30vh;
   align-items: center;
-  justify-content: center;
-  flex: 1 0 20rem;
+  flex-wrap: wrap;
+  img {
+    height: 300px;
+  }
 }
 
 .card {
-  flex-wrap: wrap;
-  flex: 1 1 20rem;
-  min-height: 22vh;
-  margin: 1rem 5rem;
+  flex: 1 1 30rem;
+  min-height: 20vh;
+  margin: 2rem 5rem;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1),
     0px 15px 15px rgba(255, 255, 255, 0.055);
   text-align: center;
@@ -46,12 +41,17 @@
   img {
     max-width: 15%;
     margin: 2rem;
-    height: 2.5rem;
+    height: 3rem;
   }
-
+  .card-icon {
+    background: url(/img/splash.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2rem 2rem 0 0;
+  }
   p,
-  h3 {
-    padding: 1.7rem;
+  h4 {
+    padding: 1rem;
   }
 }
 .card:hover {

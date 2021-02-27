@@ -424,94 +424,6 @@ footer h4 {
           flex: 1 1 40rem;
 }
 
-.hero {
-  min-height: 35vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
-  background: linear-gradient(black, transparent);
-  background-color: #202020;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-}
-
-.hero h1,
-.hero p {
-  padding: 1rem;
-}
-
-.hero-texts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.hero button {
-  padding: 1rem 2rem;
-  background: #38b9bc;
-  color: white;
-  border-radius: 1rem;
-  font-size: 2rem;
-  border: none;
-  cursor: pointer;
-  -webkit-transition: background 0.5s ease-in-out;
-  transition: background 0.5s ease-in-out;
-}
-
-.hero button:hover {
-  background: #154353;
-}
-
-/*
-
-.hero-images {
-  object-fit: cover;
-  flex: 1 1 auto;
-  margin-left: 3rem;
-}
-
-#right-hand {
-  animation: writing 1.2s ease-in-out infinite alternate;
-  transform-origin: bottom;
-  transform-box: fill-box;
-}
-
-@keyframes writing {
-  from {
-    transform: rotatex(0deg);
-    transform: rotatez(0deg);
-  }
-  to {
-    transform: rotatex(-20deg);
-    transform: rotatez(10deg);
-  }
-}
- 
-*/
 .tools {
   min-height: 95vh;
   background: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
@@ -643,36 +555,29 @@ nav .ul :hover {
   font-weight: 100;
 }
 
-.system {
-  min-height: 60vh;
-}
-
-.system-head {
+.benefits-head {
   background: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
   background: linear-gradient(black, transparent);
   padding: 3rem;
   min-height: 20vh;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  line-height: 4rem;
-  color: white;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
-.system-head h2 {
+.benefits-head h2 {
   color: #38b9bc;
   padding: 1rem;
 }
@@ -680,35 +585,29 @@ nav .ul :hover {
 .cards {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent));
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
-  width: 95%;
-  height: 30vh;
-  min-height: 20vh;
-  max-height: 14vh;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  width: 90%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 30vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 20rem;
-          flex: 1 0 20rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cards img {
+  height: 300px;
 }
 
 .card {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 20rem;
-          flex: 1 1 20rem;
-  min-height: 22vh;
-  margin: 1rem 5rem;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  min-height: 20vh;
+  margin: 2rem 5rem;
   -webkit-box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1), 0px 15px 15px rgba(255, 255, 255, 0.055);
           box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1), 0px 15px 15px rgba(255, 255, 255, 0.055);
   text-align: center;
@@ -722,17 +621,19 @@ nav .ul :hover {
 .card img {
   max-width: 15%;
   margin: 2rem;
-  height: 2.5rem;
+  height: 3rem;
 }
 
-.card card-icon {
-  max-width: 15%;
-  margin: 2rem;
+.card .card-icon {
+  background: url(/img/splash.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 2rem 2rem 0 0;
 }
 
 .card p,
-.card h3 {
-  padding: 1.7rem;
+.card h4 {
+  padding: 1rem;
 }
 
 .card:hover {
@@ -742,36 +643,22 @@ nav .ul :hover {
           box-shadow: 0px 10px 15px rgba(255, 255, 255, 0.1), 0px 20px 25px rgba(255, 255, 255, 0.1);
 }
 
-.card-icon {
-  height: 6.8rem;
-  background: url(/img/splash.svg);
-  background-position: center;
-  border-radius: 2rem 2rem 0 0;
-}
-
 #contact {
-  min-height: 50vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(transparent)), url(/img/mountains.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.1), transparent), url(/img/mountains.png);
+  min-height: 70vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.5)), to(transparent)), url(/img/mountains.png);
+  background: linear-gradient(rgba(1, 1, 1, 0.5), transparent), url(/img/mountains.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  text-align: center;
-  padding: 6rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #contact h2,
@@ -786,23 +673,10 @@ nav .ul :hover {
 
 .form-wrapper {
   background: rgba(19, 28, 39, 0.5);
-  min-height: 50vh;
-  width: 100%;
+  min-height: 35vh;
+  width: 60%;
   color: white;
-  border-radius: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  border-radius: 1rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -817,26 +691,12 @@ nav .ul :hover {
   line-height: 3.5rem;
 }
 
-.name-form,
-.email-form {
-  padding: 1.5rem;
-  text-align: center;
-}
-
-.form-control {
-  display: inline;
-}
-
-.form-wrapper label {
-  margin: 0rem 2rem;
-}
-
 .form-wrapper button {
   width: 100%;
   padding: 2rem;
   background: #38b9bc;
   color: white;
-  border-radius: 20px;
+  border-radius: 0 0 1rem 1rem;
   font-size: 2.9rem;
   border: none;
   cursor: pointer;
@@ -1369,7 +1229,7 @@ nav .ul :hover {
     text-decoration: underline;
   }
   .nav-links {
-    background: #154353;
+    background: black;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -1487,7 +1347,7 @@ nav .ul :hover {
     text-decoration: underline;
   }
   .nav-links {
-    background: #154353;
+    background: black;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -1514,6 +1374,10 @@ nav .ul :hover {
   .nav-open {
     -webkit-transform: translatex(-100%);
             transform: translatex(-100%);
+  }
+  .nav-open .header_checkout svg {
+    width: 5rem;
+    height: 5rem;
   }
   .toggle .line1 {
     -webkit-transform: rotateZ(45deg) translateY(300%);
@@ -1575,15 +1439,8 @@ nav .ul :hover {
     width: 100%;
   }
   .form-wrapper {
-    width: 100%;
+    width: 70%;
     height: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .name-form,
-  .email-form {
-    padding: 1.5rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
