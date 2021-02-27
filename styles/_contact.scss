@@ -3,7 +3,7 @@
   background: linear-gradient(rgba(1, 1, 1, 0.5), transparent),
     url(/img/mountains.png);
   background-size: cover;
-  background-position: center;
+  background-position: cetner;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -24,8 +24,8 @@
   width: 60%;
   color: white;
   border-radius: 1rem;
-
   flex-wrap: wrap;
+  bottom: 2rem;
 }
 
 .form-head {

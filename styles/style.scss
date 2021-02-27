@@ -207,9 +207,10 @@ $font-color: #ffffff;
     margin: 3rem;
   }
   .intro-img {
+    justify-content: center;
     img {
       margin-left: 2.3rem;
-      width: 45rem;
+      width: 35rem;
       height: 20rem;
     }
   }
@@ -239,15 +240,14 @@ $font-color: #ffffff;
   /* Contact */
 
   #contact {
-    margin-top: 5rem;
     height: 100%;
     width: 100%;
+    padding: 2rem;
   }
 
   .form-wrapper {
     width: 70%;
     height: 100%;
-    align-items: center;
   }
 
   /* Now Page */
@@ -265,5 +265,11 @@ $font-color: #ffffff;
 
   .blog-card {
     margin: 2.5rem;
+    min-width: 25rem;
+  }
+  .blog-card-body {
+    h2 {
+      line-height: 2.5rem;
+    }
   }
 }

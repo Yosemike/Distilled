@@ -648,7 +648,7 @@ nav .ul :hover {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 1, 1, 0.5)), to(transparent)), url(/img/mountains.png);
   background: linear-gradient(rgba(1, 1, 1, 0.5), transparent), url(/img/mountains.png);
   background-size: cover;
-  background-position: center;
+  background-position: cetner;
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -679,6 +679,7 @@ nav .ul :hover {
   border-radius: 1rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  bottom: 2rem;
 }
 
 .form-head {
@@ -1410,9 +1411,14 @@ nav .ul :hover {
   .intro-text {
     margin: 3rem;
   }
+  .intro-img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .intro-img img {
     margin-left: 2.3rem;
-    width: 45rem;
+    width: 35rem;
     height: 20rem;
   }
   /* Hero */
@@ -1434,16 +1440,13 @@ nav .ul :hover {
   }
   /* Contact */
   #contact {
-    margin-top: 5rem;
     height: 100%;
     width: 100%;
+    padding: 2rem;
   }
   .form-wrapper {
     width: 70%;
     height: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   /* Now Page */
   .now-head {
@@ -1456,6 +1459,10 @@ nav .ul :hover {
   /* Blog */
   .blog-card {
     margin: 2.5rem;
+    min-width: 25rem;
+  }
+  .blog-card-body h2 {
+    line-height: 2.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
