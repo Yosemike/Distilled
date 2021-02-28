@@ -14,7 +14,7 @@
 .blog-layout {
   @include flex(center, center, row);
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 50vh;
   margin: 5%;
   flex: 1 0 20rem;
 }

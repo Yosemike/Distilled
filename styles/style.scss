@@ -18,14 +18,15 @@ $font-color: #ffffff;
 @import "global";
 @import "intro";
 @import "blog";
+@import "blog-post";
+@import "shop";
+@import "product";
 @import "footer";
 @import "tools";
 @import "nav";
 @import "benefits";
 @import "contact";
-@import "shop";
 @import "snipcart-overwrite";
-@import "blog-post";
 @import "now";
 
 @media screen and (max-width: 1020px) {
@@ -268,6 +269,29 @@ $font-color: #ffffff;
     min-width: 25rem;
   }
   .blog-card-body {
+    h2 {
+      line-height: 2.5rem;
+    }
+  }
+
+  /* Blog Post */
+
+  .blog-post-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  .blog-post-body {
+    width: 100%;
+  }
+
+  /* Shop */
+
+  .shop-card {
+    margin: 2.5rem;
+    min-width: 25rem;
+  }
+  .shop-card-body {
     h2 {
       line-height: 2.5rem;
     }
