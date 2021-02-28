@@ -1377,7 +1377,8 @@ nav .ul :hover {
   .nav-links a {
     color: white;
     font-size: 4rem;
-    text-decoration: underline;
+    -webkit-text-decoration: wavy;
+            text-decoration: wavy;
   }
   .nav-links {
     background: black;
@@ -1495,7 +1496,8 @@ nav .ul :hover {
   .nav-links a {
     color: white;
     font-size: 4rem;
-    text-decoration: underline;
+    -webkit-text-decoration: wavy;
+            text-decoration: wavy;
   }
   .nav-links {
     background: black;
