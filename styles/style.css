@@ -977,6 +977,7 @@ nav .ul :hover {
       -ms-flex: 1 1 30rem;
           flex: 1 1 30rem;
   min-height: 20vh;
+  min-width: 15vw;
   margin: 2rem 5rem;
   -webkit-box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1), 0px 15px 15px rgba(255, 255, 255, 0.055);
           box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1), 0px 15px 15px rgba(255, 255, 255, 0.055);
@@ -995,7 +996,8 @@ nav .ul :hover {
 }
 
 .card .card-icon {
-  background: url(/img/splash.svg);
+  background: -webkit-gradient(linear, right top, left top, from(#38d39f), to(#38a4d3));
+  background: linear-gradient(right, #38d39f, #38a4d3);
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 2rem 2rem 0 0;
@@ -1043,7 +1045,7 @@ nav .ul :hover {
 
 .form-wrapper {
   background: rgba(19, 28, 39, 0.5);
-  min-height: 35vh;
+  min-height: 30vh;
   width: 60%;
   color: white;
   border-radius: 1rem;
@@ -1453,17 +1455,21 @@ nav .ul :hover {
   }
   /* Contact */
   #contact {
-    margin-top: 5rem;
     height: 100%;
     width: 100%;
+    padding: 2rem;
   }
   .form-wrapper {
-    margin-top: 5rem;
-    width: 100%;
+    width: 70%;
     height: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  }
+  /* Blog */
+  .blog-introduction {
+    text-align: center;
+  }
+  /* Shop */
+  .shop-introduction {
+    text-align: center;
   }
 }
 

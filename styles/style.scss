@@ -118,15 +118,26 @@ $font-color: #ffffff;
   /* Contact */
 
   #contact {
-    margin-top: 5rem;
     height: 100%;
     width: 100%;
+    padding: 2rem;
   }
+
   .form-wrapper {
-    margin-top: 5rem;
-    width: 100%;
+    width: 70%;
     height: 100%;
-    align-items: center;
+  }
+
+  /* Blog */
+
+  .blog-introduction {
+    text-align: center;
+  }
+
+  /* Shop */
+
+  .shop-introduction {
+    text-align: center;
   }
 }
 
