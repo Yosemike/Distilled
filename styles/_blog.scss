@@ -17,16 +17,19 @@
   min-height: 50vh;
   margin: 5%;
   flex: 1 0 20rem;
+  h2 {
+    line-height: 3rem;
+  }
 }
 .blog-card {
-  flex: 1 1 20rem;
+  flex: 1 1 30rem;
   overflow: hidden;
   box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.1),
     0px 15px 15px rgba(255, 255, 255, 0.055);
   border-radius: 0.5rem;
   position: relative;
   min-width: 50rem;
-  min-height: 35rem;
+  min-height: 38rem;
   margin: 1rem;
   transition: 250ms all ease-in-out;
   cursor: pointer;
@@ -67,7 +70,7 @@
 .blog-hashtag {
   font-size: 2rem;
   font-weight: 500;
-  color: rgba(4, 172, 214, 0.589);
+  color: #38b9bc;
 }
 .blog-title {
   line-height: 1rem;
