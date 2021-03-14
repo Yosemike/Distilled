@@ -651,10 +651,12 @@ button:hover {
     padding: 10rem;
   }
   */
+/* Product Header: Attack the Day */
 .kibookclub-header {
   min-height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -684,7 +686,7 @@ button:hover {
   margin: 1rem;
 }
 
-/* Product Description */
+/* Product Header: Attack the Day */
 .journal-header {
   min-height: 65vh;
   display: -webkit-box;
@@ -718,6 +720,7 @@ button:hover {
   margin: 1rem;
 }
 
+/* Product Description */
 .product-pitch {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -757,6 +760,7 @@ button:hover {
 }
 
 .snipcart-button button {
+  margin-left: 2rem;
   min-width: 30vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -778,18 +782,18 @@ button:hover {
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
   padding: 2rem;
-  background: #38b9bc;
+  background: none;
+  border-color: #38b9bc;
   color: white;
   border-radius: 1rem;
   font-size: 2.9rem;
-  border: none;
   cursor: pointer;
   -webkit-transition: background 0.5s ease-in-out;
   transition: background 0.5s ease-in-out;
 }
 
 .snipcart-button button:hover {
-  background: #154353;
+  background: #38b9bc;
 }
 
 footer {
@@ -1513,6 +1517,10 @@ nav .ul :hover {
   .shop-introduction {
     text-align: center;
   }
+  /* Product */
+  .kibookclud-header {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 820px) {
@@ -1679,6 +1687,15 @@ nav .ul :hover {
   }
   .shop-card-body h2 {
     line-height: 2.5rem;
+  }
+  /* Product */
+  .kibookclub-header {
+    width: 100%;
+    text-align: center;
+  }
+  .journal-header {
+    width: 100%;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

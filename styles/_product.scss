@@ -1,5 +1,8 @@
+/* Product Header: Attack the Day */
+
 .kibookclub-header {
   min-height: 65vh;
+  display: flex;
   @include flex(center, center, column);
   flex-wrap: wrap;
   margin: 0 0 0 auto;
@@ -16,7 +19,7 @@
   }
 }
 
-/* Product Description */
+/* Product Header: Attack the Day */
 
 .journal-header {
   min-height: 65vh;
@@ -35,6 +38,8 @@
     margin: 1rem;
   }
 }
+
+/* Product Description */
 
 .product-pitch {
   display: flex;
@@ -59,6 +64,7 @@
 
 .snipcart-button {
   button {
+    margin-left: 2rem;
     min-width: 30vw;
     display: flex;
     flex-direction: row;
@@ -69,15 +75,15 @@
     top: 0;
     flex: 1 1 40rem;
     padding: 2rem;
-    background: #38b9bc;
+    background: none;
+    border-color: #38b9bc;
     color: white;
     border-radius: 1rem;
     font-size: 2.9rem;
-    border: none;
     cursor: pointer;
     transition: background 0.5s ease-in-out;
   }
   button:hover {
-    background: $background-color;
+    background: #38b9bc;
   }
 }
