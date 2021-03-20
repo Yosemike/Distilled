@@ -35,21 +35,20 @@ p {
   font-size: 1.8rem;
   font-weight: 100;
   line-height: 2.5rem;
-  margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 3rem;
   font-weight: 100;
   padding-bottom: 1.5rem;
-  padding-top: 1.5remrem;
+  padding-top: 1.5rem;
 }
 
 h3 {
   font-size: 2.5rem;
   font-weight: 100;
   padding-bottom: 1.5rem;
-  padding-top: 1.5remrem;
+  padding-top: 1.5rem;
 }
 
 h4,
@@ -73,7 +72,7 @@ a {
 }
 
 blockquote {
-  font-size: 2.6rem;
+  font-size: 3rem;
   font-weight: 100;
   color: lightgray;
   margin: 2rem;
@@ -150,11 +149,11 @@ button:hover {
 }
 
 .intro-social button {
-  padding: 0.1rem 1.8rem 0.9rem 2rem;
+  padding: 0.9rem 2rem 0.9rem 2rem;
   background: #38b9bc;
   color: white;
   border-radius: 1rem;
-  font-size: 2.9rem;
+  font-size: 2rem;
   border: none;
   cursor: pointer;
   -webkit-transition: background 0.5s ease-in-out;
@@ -735,6 +734,7 @@ button:hover {
 .journal-header h2 {
   padding: 1rem;
   margin: 1rem;
+  line-height: 4rem;
 }
 
 /* Product Description */
@@ -776,6 +776,27 @@ button:hover {
   max-width: 60vw;
 }
 
+.product-description h1 {
+  line-height: 4.5rem;
+  font-weight: 400;
+}
+
+.product-description h2 {
+  line-height: 3.8rem;
+  font-weight: 200;
+}
+
+.product-description p {
+  line-height: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.product-description blockquote {
+  margin-left: 2.5rem;
+  margin-bottom: 3.5rem;
+  font-size: 2.2rem;
+}
+
 .snipcart-button button {
   margin-left: 2rem;
   min-width: 25vw;
@@ -811,6 +832,10 @@ button:hover {
 
 .snipcart-button button:hover {
   background: #38b9bc;
+}
+
+.snipcart-button h3 {
+  font-size: 2.5rem;
 }
 
 footer {
@@ -1738,6 +1763,7 @@ nav .ul :hover {
   }
   .snipcart-button button {
     margin: auto;
+    padding: 1rem;
     min-width: 70vw;
   }
   .snipcart-button h3 {
