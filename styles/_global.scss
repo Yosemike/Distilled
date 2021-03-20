@@ -23,53 +23,38 @@ body {
 h1 {
   font-size: $header1;
   font-weight: 100;
-  line-height: 4rem;
-  padding-bottom: 2rem;
 }
 li,
 button,
 label,
 input,
+a,
 p {
   font-size: $text;
   font-weight: 100;
-  line-height: 2.5rem;
 }
 h2 {
   font-size: $header2;
   font-weight: 100;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
 }
 h3 {
   font-size: $header3;
   font-weight: 100;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
 }
 h4,
 h5 {
   font-size: $header4;
   font-weight: 100;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
 }
 
 ul {
   list-style: none;
   font-weight: 100;
-  padding-bottom: 1.5rem;
 }
 a {
   text-decoration: none;
   color: $font-color;
   font-weight: 100;
-}
-blockquote {
-  font-size: 3rem;
-  font-weight: 100;
-  color: lightgray;
-  margin: 2rem;
 }
 
 /*
