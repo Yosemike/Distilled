@@ -35,6 +35,7 @@ p {
   font-size: 1.8rem;
   font-weight: 100;
   line-height: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -72,7 +73,7 @@ a {
 }
 
 blockquote {
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 100;
   color: lightgray;
   margin: 2rem;
@@ -768,7 +769,7 @@ button:hover {
           justify-content: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  line-height: 4rem;
+  margin-right: 3rem;
 }
 
 .product-description img {
@@ -777,7 +778,7 @@ button:hover {
 
 .snipcart-button button {
   margin-left: 2rem;
-  min-width: 30vw;
+  min-width: 25vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -785,19 +786,19 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1.2rem;
   background: none;
   border-color: #38b9bc;
   color: white;
@@ -1712,6 +1713,35 @@ nav .ul :hover {
   .journal-header {
     width: 100%;
     text-align: center;
+  }
+  .product-description {
+    margin-right: 0.1rem;
+  }
+  .product-description h1,
+  .product-description h2 {
+    font-size: 3rem;
+  }
+  .product-description p {
+    font-size: 1.7rem;
+  }
+  .product-description img {
+    max-width: 60vw;
+  }
+  .product-pitch {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .snipcart-button {
+    margin-top: 2rem;
+  }
+  .snipcart-button button {
+    margin: auto;
+    min-width: 70vw;
+  }
+  .snipcart-button h3 {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

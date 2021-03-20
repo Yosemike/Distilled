@@ -328,4 +328,33 @@ $font-color: #ffffff;
     width: 100%;
     text-align: center;
   }
+
+  .product-description {
+    margin-right: 0.1rem;
+    h1,
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.7rem;
+    }
+    img {
+      max-width: 60vw;
+    }
+  }
+
+  .product-pitch {
+    flex-direction: column;
+  }
+
+  .snipcart-button {
+    margin-top: 2rem;
+    button {
+      margin: auto;
+      min-width: 70vw;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+  }
 }
