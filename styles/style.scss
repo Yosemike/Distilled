@@ -319,15 +319,26 @@ $font-color: #ffffff;
 
   /* Product */
 
+  /* Kibookclub */
+
   .kibookclub-header {
     width: 100%;
     text-align: center;
   }
 
+  /* Journal */
   .journal-header {
     width: 100%;
     text-align: center;
   }
+
+  /* Vizier */
+
+  .vizier-book-cover {
+    width: 95%;
+  }
+
+  /* General product description */
 
   .product-description {
     margin-right: 0.1rem;
@@ -339,7 +350,7 @@ $font-color: #ffffff;
       font-size: 1.7rem;
     }
     img {
-      max-width: 60vw;
+      max-width: 80vw;
     }
   }
 

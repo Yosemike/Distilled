@@ -760,7 +760,7 @@ button:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 70%;
 }
 
 /* Product Description */
@@ -1767,14 +1767,21 @@ nav .ul :hover {
     line-height: 2.5rem;
   }
   /* Product */
+  /* Kibookclub */
   .kibookclub-header {
     width: 100%;
     text-align: center;
   }
+  /* Journal */
   .journal-header {
     width: 100%;
     text-align: center;
   }
+  /* Vizier */
+  .vizier-book-cover {
+    width: 95%;
+  }
+  /* General product description */
   .product-description {
     margin-right: 0.1rem;
   }
@@ -1786,7 +1793,7 @@ nav .ul :hover {
     font-size: 1.7rem;
   }
   .product-description img {
-    max-width: 60vw;
+    max-width: 80vw;
   }
   .product-pitch {
     -webkit-box-orient: vertical;
