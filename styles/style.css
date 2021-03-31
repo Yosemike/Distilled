@@ -705,7 +705,7 @@ button:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 0 0 auto;
-  background: url(/img/PRODUCTSHOT@2x.png);
+  background: url(/img/Cover.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1783,6 +1783,8 @@ nav .ul :hover {
   .journal-header {
     width: 100%;
     text-align: center;
+    background-size: 50rem;
+    min-height: 35vh;
   }
   /* Vizier */
   .vizier-book-cover {
