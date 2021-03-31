@@ -720,6 +720,14 @@ button:hover {
   line-height: 4rem;
 }
 
+.daily-blueprint-img1 {
+  margin-bottom: 1.5rem;
+}
+
+.daily-blueprint-img1 img {
+  width: 100%;
+}
+
 /* Product Header: Vizier */
 .vizier-header {
   min-height: 65vh;
