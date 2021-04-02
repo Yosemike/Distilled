@@ -688,7 +688,7 @@ button:hover {
 
 /* Product Header: Attack the Day */
 .journal-header {
-  min-height: 100vh;
+  min-height: 75vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1057,8 +1057,8 @@ nav .ul :hover {
 }
 
 .benefits-head {
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
-  background: linear-gradient(black, transparent);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000001), to(transparent));
+  background: linear-gradient(#000001, transparent);
   padding: 3rem;
   min-height: 20vh;
   color: white;
@@ -1480,6 +1480,17 @@ nav .ul :hover {
   padding: 2rem;
 }
 
+.now-texts h1 {
+  line-height: 4.7rem;
+  margin-bottom: 2rem;
+}
+
+.now-texts h2,
+.now-texts h3 {
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
 .now-texts p {
   margin-bottom: 2rem;
 }
@@ -1605,6 +1616,13 @@ nav .ul :hover {
   /* Product */
   .kibookclud-header {
     text-align: center;
+  }
+  /* Journal */
+  .journal-header {
+    width: 100%;
+    text-align: center;
+    background-size: 50rem;
+    min-height: 35vh;
   }
 }
 

@@ -22,7 +22,7 @@
 /* Product Header: Attack the Day */
 
 .journal-header {
-  min-height: 100vh;
+  min-height: 75vh;
   @include flex(center, center, column);
   flex-wrap: wrap;
   margin: 0 0 0 auto;

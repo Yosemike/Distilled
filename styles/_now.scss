@@ -25,6 +25,15 @@
   flex-wrap: wrap;
   min-height: 80vh;
   padding: 2rem;
+  h1 {
+    line-height: 4.7rem;
+    margin-bottom: 2rem;
+  }
+  h2,
+  h3 {
+    line-height: 4rem;
+    margin-bottom: 2rem;
+  }
   p {
     margin-bottom: 2rem;
   }
