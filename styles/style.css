@@ -419,6 +419,39 @@ button:hover {
 
 /* Writing Post */
 /* Journal Post */
+.journal-post-header {
+  min-height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent)), url(https://images.unsplash.com/photo-1514474959185-1472d4c4e0d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+  background: linear-gradient(black, transparent), url(https://images.unsplash.com/photo-1514474959185-1472d4c4e0d4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: 0px 10px 10px rgba(90, 90, 90, 0.4);
+          box-shadow: 0px 10px 10px rgba(90, 90, 90, 0.4);
+}
+
+.journal-post-header h2,
+.journal-post-header p {
+  padding: 1rem;
+  margin: 1rem;
+}
+
 /* Twitter Post */
 .twitter-post-header {
   min-height: 45vh;
